@@ -14,8 +14,7 @@ namespace PC3_ORTIZ.Models
         public string descripcion { get; set; }
         [Required]
         public double precio { get; set; }
-        [Required]
-        [Phone]
+        [Required]        
         public int celular { get; set; }
         [Required]
         public string lugarcompra { get; set; }
